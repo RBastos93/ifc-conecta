@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="IFC Conecta: guia para novos estudantes do campus com informações sobre cursos, eventos e primeiros passos."
+    />
+    <title>IFC Conecta — Guia para novos estudantes</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/base/tokens.css" />
+    <link rel="stylesheet" href="./css/base/layout.css" />
+    <link rel="stylesheet" href="./css/base/componentes.css" />
+    <link rel="stylesheet" href="./inicio/inicio.css" />
+  </head>
+
+  <body>
+    <a class="pular-conteudo" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="cabecalho">
+      <div class="container cabecalho__conteudo">
+        <a class="cabecalho__marca" href="./index.html">
+          <img
+            class="cabecalho__logo"
+            src="./images/logo.svg"
+            alt="Logotipo do portal IFC Conecta"
+          />
+          <span>
+            <span class="cabecalho__titulo">IFC Conecta</span>
+            <span class="cabecalho__subtitulo">Guia para novos estudantes</span>
+          </span>
+        </a>
+
+        <a class="cabecalho__cta" href="./contato/contato.html">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+          </svg>
+          Precisa de ajuda?
+        </a>
+      </div>
+
+      <nav class="menu" aria-label="Menu principal">
+        <ul class="menu__lista container">
+          <li><a class="menu__link menu__link--ativo" href="./index.html">Início</a></li>
+          <li><a class="menu__link" href="./cursos/cursos.html">Cursos</a></li>
+          <li><a class="menu__link" href="./eventos/eventos.html">Eventos</a></li>
+          <li><a class="menu__link" href="./guia/guia.html">Guia do calouro</a></li>
+          <li><a class="menu__link" href="./contato/contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="conteudo" id="conteudo">
+      <div class="container">
+        <section class="destaque" aria-labelledby="boas-vindas">
+          <div class="destaque__texto">
+            <span class="destaque__sobretitulo">👋 Olá, calouro!</span>
+            <h2 class="destaque__titulo" id="boas-vindas">
+              Seu primeiro passo no campus <mark>começa aqui</mark>
+            </h2>
+            <p class="destaque__descricao">
+              Começar em uma escola nova é empolgante, mas cheio de dúvidas. O
+              IFC Conecta reúne tudo o que você precisa nas primeiras semanas:
+              cursos, eventos e um guia prático do dia a dia.
+            </p>
+            <div class="destaque__acoes">
+              <a class="botao" href="./guia/guia.html">
+                Ver o guia do calouro
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="5" y1="12" x2="19" y2="12" />
+                  <polyline points="12 5 19 12 12 19" />
+                </svg>
+              </a>
+              <a class="botao botao--contorno" href="./cursos/cursos.html">Conhecer os cursos</a>
+            </div>
+          </div>
+          <div class="destaque__ilustracao">
+            <img
+              src="./images/hero.svg"
+              alt="Ilustração de estudantes chegando a um campus com prédios, livros e balões de conversa"
+            />
+          </div>
+        </section>
+
+        <section class="numeros" aria-label="Destaques do portal">
+          <div class="numero">
+            <p class="numero__valor">3</p>
+            <p class="numero__rotulo">cursos técnicos</p>
+          </div>
+          <div class="numero">
+            <p class="numero__valor">6</p>
+            <p class="numero__rotulo">passos para começar</p>
+          </div>
+          <div class="numero">
+            <p class="numero__valor">+10</p>
+            <p class="numero__rotulo">eventos por ano</p>
+          </div>
+          <div class="numero">
+            <p class="numero__valor">1</p>
+            <p class="numero__rotulo">portal com tudo reunido</p>
+          </div>
+        </section>
+
+        <section class="secao" aria-labelledby="destaques">
+          <div class="secao__cabecalho">
+            <span class="secao__icone" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 15 8.5 22 9.3 17 14 18.3 21 12 17.5 5.7 21 7 14 2 9.3 9 8.5 12 2" />
+              </svg>
+            </span>
+            <div>
+              <span class="sobretitulo">Atalhos</span>
+              <h2 class="secao__titulo" id="destaques">Comece por aqui</h2>
+            </div>
+          </div>
+          <p class="secao__texto">
+            Separamos os três assuntos que mais geram dúvidas em quem está
+            chegando. Escolha por onde quer começar.
+          </p>
+
+          <div class="cards">
+            <article class="card">
+              <div class="card__capa" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+                  <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+                </svg>
+              </div>
+              <div class="card__corpo">
+                <span class="etiqueta">Cursos</span>
+                <h3 class="card__titulo">Conheça os cursos</h3>
+                <p class="card__texto">
+                  Descubra os cursos técnicos, a área de cada um e o que você
+                  vai aprender durante a formação.
+                </p>
+                <a class="card__link" href="./cursos/cursos.html">
+                  Ver cursos
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="5" y1="12" x2="19" y2="12" />
+                    <polyline points="12 5 19 12 12 19" />
+                  </svg>
+                </a>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card__capa card__capa--coral" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="4" width="18" height="18" rx="2" />
+                  <line x1="16" y1="2" x2="16" y2="6" />
+                  <line x1="8" y1="2" x2="8" y2="6" />
+                  <line x1="3" y1="10" x2="21" y2="10" />
+                </svg>
+              </div>
+              <div class="card__corpo">
+                <span class="etiqueta etiqueta--coral">Eventos</span>
+                <h3 class="card__titulo">Participe dos eventos</h3>
+                <p class="card__texto">
+                  Feiras, jogos e mostras culturais são ótimas formas de fazer
+                  amizades e conhecer o campus.
+                </p>
+                <a class="card__link" href="./eventos/eventos.html">
+                  Ver eventos
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="5" y1="12" x2="19" y2="12" />
+                    <polyline points="12 5 19 12 12 19" />
+                  </svg>
+                </a>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card__capa card__capa--amarelo" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+              </div>
+              <div class="card__corpo">
+                <span class="etiqueta etiqueta--amarelo">Primeiros passos</span>
+                <h3 class="card__titulo">Se localize no campus</h3>
+                <p class="card__texto">
+                  Um passo a passo simples com tudo o que você precisa resolver
+                  nos primeiros dias de aula.
+                </p>
+                <a class="card__link" href="./guia/guia.html">
+                  Ver guia
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="5" y1="12" x2="19" y2="12" />
+                    <polyline points="12 5 19 12 12 19" />
+                  </svg>
+                </a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="secao" aria-labelledby="sobre-portal">
+          <div class="secao__cabecalho">
+            <span class="secao__icone" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10" />
+                <line x1="12" y1="16" x2="12" y2="12" />
+                <line x1="12" y1="8" x2="12.01" y2="8" />
+              </svg>
+            </span>
+            <div>
+              <span class="sobretitulo">Sobre</span>
+              <h2 class="secao__titulo" id="sobre-portal">Por que o IFC Conecta?</h2>
+            </div>
+          </div>
+
+          <div class="layout-com-aside">
+            <div class="layout-com-aside__principal">
+              <p class="secao__texto">
+                Todo semestre chegam novos estudantes cheios de perguntas: onde
+                pego o cartão da biblioteca? Como funciona o refeitório? Quando
+                começam as atividades extras? Essas informações costumam estar
+                espalhadas, o que deixa o começo mais confuso do que precisa
+                ser.
+              </p>
+              <p class="secao__texto">
+                A ideia do portal é simples: organizar tudo em páginas claras,
+                com navegação fácil, para que qualquer calouro consiga se virar
+                sozinho desde o primeiro dia.
+              </p>
+            </div>
+
+            <aside class="dica" aria-label="Dica rápida">
+              <h3 class="dica__titulo">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M9 18h6" />
+                  <path d="M10 22h4" />
+                  <path d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5A4.61 4.61 0 0 1 8.91 14" />
+                </svg>
+                Dica rápida
+              </h3>
+              <p>
+                Guarde o número da sua matrícula. Ele é pedido na biblioteca, no
+                refeitório e no portal do estudante.
+              </p>
+            </aside>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="rodape">
+      <div class="container rodape__conteudo">
+        <div class="rodape__bloco">
+          <h2 class="rodape__titulo">IFC Conecta</h2>
+          <p>Portal informativo feito por e para estudantes.</p>
+        </div>
+        <div class="rodape__bloco">
+          <h2 class="rodape__titulo">Navegação</h2>
+          <ul class="contatos">
+            <li><a href="./cursos/cursos.html">Cursos</a></li>
+            <li><a href="./eventos/eventos.html">Eventos</a></li>
+            <li><a href="./guia/guia.html">Guia do calouro</a></li>
+            <li><a href="./contato/contato.html">Contato</a></li>
+          </ul>
+        </div>
+        <div class="rodape__bloco">
+          <h2 class="rodape__titulo">Contato</h2>
+          <ul class="contatos">
+            <li>Secretaria: (00) 0000-0001</li>
+            <li>contato@ifcconecta.exemplo</li>
+          </ul>
+        </div>
+        <p class="rodape__creditos">
+          Projeto acadêmico — Desenvolvimento Web. Este portal não representa
+          oficialmente o Instituto Federal Catarinense.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
