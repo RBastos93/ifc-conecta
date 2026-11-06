@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Fale com a equipe do IFC Conecta e veja os contatos dos principais setores do campus."
+    />
+    <title>Contato — IFC Conecta</title>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/base/tokens.css" />
+    <link rel="stylesheet" href="../css/base/layout.css" />
+    <link rel="stylesheet" href="../css/base/componentes.css" />
+    <link rel="stylesheet" href="./contato.css" />
+  </head>
+
+  <body>
+    <a class="pular-conteudo" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="cabecalho">
+      <div class="container cabecalho__conteudo">
+        <a class="cabecalho__marca" href="../index.html">
+          <img
+            class="cabecalho__logo"
+            src="../images/logo.svg"
+            alt="Logotipo do portal IFC Conecta"
+          />
+          <span>
+            <span class="cabecalho__titulo">IFC Conecta</span>
+            <span class="cabecalho__subtitulo">Guia para novos estudantes</span>
+          </span>
+        </a>
+
+        <a class="cabecalho__cta" href="./contato.html">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+          </svg>
+          Precisa de ajuda?
+        </a>
+      </div>
+
+      <nav class="menu" aria-label="Menu principal">
+        <ul class="menu__lista container">
+          <li><a class="menu__link" href="../index.html">Início</a></li>
+          <li><a class="menu__link" href="../cursos/cursos.html">Cursos</a></li>
+          <li><a class="menu__link" href="../eventos/eventos.html">Eventos</a></li>
+          <li><a class="menu__link" href="../guia/guia.html">Guia do calouro</a></li>
+          <li><a class="menu__link menu__link--ativo" href="./contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="conteudo" id="conteudo">
+      <div class="container">
+        <section class="secao" aria-labelledby="titulo-contato">
+          <div class="secao__cabecalho">
+            <span class="secao__icone" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                <polyline points="22,6 12,13 2,6" />
+              </svg>
+            </span>
+            <div>
+              <span class="sobretitulo">Contato</span>
+              <h2 class="secao__titulo" id="titulo-contato">Fale com a gente</h2>
+            </div>
+          </div>
+          <p class="secao__texto">
+            Ficou com alguma dúvida que não encontrou no portal? Mande uma
+            mensagem usando o formulário abaixo. Esta é uma página de
+            demonstração, então o envio ainda não está ativo na Versão 1.
+          </p>
+
+          <div class="layout-com-aside">
+            <form class="formulario" aria-labelledby="titulo-contato">
+              <div class="campo">
+                <label class="campo__rotulo" for="nome">Nome completo</label>
+                <input
+                  class="campo__entrada"
+                  type="text"
+                  id="nome"
+                  name="nome"
+                  placeholder="Digite seu nome"
+                  required
+                />
+              </div>
+
+              <div class="campo">
+                <label class="campo__rotulo" for="email">E-mail</label>
+                <input
+                  class="campo__entrada"
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="voce@exemplo.com"
+                  required
+                />
+              </div>
+
+              <div class="campo">
+                <label class="campo__rotulo" for="assunto">Assunto</label>
+                <select class="campo__entrada" id="assunto" name="assunto">
+                  <option value="duvida">Dúvida sobre o campus</option>
+                  <option value="cursos">Cursos</option>
+                  <option value="eventos">Eventos</option>
+                  <option value="outro">Outro assunto</option>
+                </select>
+              </div>
+
+              <div class="campo">
+                <label class="campo__rotulo" for="mensagem">Mensagem</label>
+                <textarea
+                  class="campo__area"
+                  id="mensagem"
+                  name="mensagem"
+                  placeholder="Escreva sua mensagem aqui"
+                  required
+                ></textarea>
+              </div>
+
+              <button class="botao botao--verde" type="submit">
+                Enviar mensagem
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="22" y1="2" x2="11" y2="13" />
+                  <polygon points="22 2 15 22 11 13 2 9 22 2" />
+                </svg>
+              </button>
+            </form>
+
+            <aside class="dica" aria-label="Contatos dos setores">
+              <h3 class="dica__titulo">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z" />
+                </svg>
+                Contatos úteis
+              </h3>
+              <ul class="contatos">
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z" /></svg>
+                  <span><strong>Secretaria:</strong> (00) 0000-0001</span>
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" /><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" /></svg>
+                  <span><strong>Biblioteca:</strong> (00) 0000-0002</span>
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" /></svg>
+                  <span><strong>Apoio ao estudante:</strong> (00) 0000-0003</span>
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" /><polyline points="22,6 12,13 2,6" /></svg>
+                  <span><strong>E-mail:</strong> contato@ifcconecta.exemplo</span>
+                </li>
+              </ul>
+            </aside>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="rodape">
+      <div class="container rodape__conteudo">
+        <div class="rodape__bloco">
+          <h2 class="rodape__titulo">IFC Conecta</h2>
+          <p>Portal informativo feito por e para estudantes.</p>
+        </div>
+        <div class="rodape__bloco">
+          <h2 class="rodape__titulo">Navegação</h2>
+          <ul class="contatos">
+            <li><a href="../index.html">Início</a></li>
+            <li><a href="../cursos/cursos.html">Cursos</a></li>
+            <li><a href="../eventos/eventos.html">Eventos</a></li>
+            <li><a href="../guia/guia.html">Guia do calouro</a></li>
+          </ul>
+        </div>
+        <div class="rodape__bloco">
+          <h2 class="rodape__titulo">Contato</h2>
+          <ul class="contatos">
+            <li>Secretaria: (00) 0000-0001</li>
+            <li>contato@ifcconecta.exemplo</li>
+          </ul>
+        </div>
+        <p class="rodape__creditos">
+          Projeto acadêmico — Desenvolvimento Web. Este portal não representa
+          oficialmente o Instituto Federal Catarinense.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
