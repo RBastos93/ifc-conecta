@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Veja os próximos eventos do campus: feira de ciências, jogos estudantis e mostra cultural."
+    />
+    <title>Eventos — IFC Conecta</title>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/base/tokens.css" />
+    <link rel="stylesheet" href="../css/base/layout.css" />
+    <link rel="stylesheet" href="../css/base/componentes.css" />
+    <link rel="stylesheet" href="./eventos.css" />
+  </head>
+
+  <body>
+    <a class="pular-conteudo" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="cabecalho">
+      <div class="container cabecalho__conteudo">
+        <a class="cabecalho__marca" href="../index.html">
+          <img
+            class="cabecalho__logo"
+            src="../images/logo.svg"
+            alt="Logotipo do portal IFC Conecta"
+          />
+          <span>
+            <span class="cabecalho__titulo">IFC Conecta</span>
+            <span class="cabecalho__subtitulo">Guia para novos estudantes</span>
+          </span>
+        </a>
+
+        <a class="cabecalho__cta" href="../contato/contato.html">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+          </svg>
+          Precisa de ajuda?
+        </a>
+      </div>
+
+      <nav class="menu" aria-label="Menu principal">
+        <ul class="menu__lista container">
+          <li><a class="menu__link" href="../index.html">Início</a></li>
+          <li><a class="menu__link" href="../cursos/cursos.html">Cursos</a></li>
+          <li><a class="menu__link menu__link--ativo" href="./eventos.html">Eventos</a></li>
+          <li><a class="menu__link" href="../guia/guia.html">Guia do calouro</a></li>
+          <li><a class="menu__link" href="../contato/contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="conteudo" id="conteudo">
+      <div class="container">
+        <section class="secao" aria-labelledby="titulo-eventos">
+          <div class="secao__cabecalho">
+            <span class="secao__icone" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="18" rx="2" />
+                <line x1="16" y1="2" x2="16" y2="6" />
+                <line x1="8" y1="2" x2="8" y2="6" />
+                <line x1="3" y1="10" x2="21" y2="10" />
+              </svg>
+            </span>
+            <div>
+              <span class="sobretitulo">Agenda</span>
+              <h2 class="secao__titulo" id="titulo-eventos">Próximos eventos</h2>
+            </div>
+          </div>
+          <p class="secao__texto">
+            Participar dos eventos é a forma mais rápida de conhecer gente nova
+            e se sentir parte do campus. Confira o que vem por aí neste
+            semestre.
+          </p>
+
+          <div class="cards">
+            <article class="card">
+              <div class="card__capa card__capa--roxo" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 2v6l-3 9a2 2 0 0 0 2 3h8a2 2 0 0 0 2-3l-3-9V2" />
+                  <line x1="8" y1="2" x2="16" y2="2" />
+                  <line x1="7" y1="16" x2="17" y2="16" />
+                </svg>
+              </div>
+              <div class="card__corpo">
+                <span class="etiqueta">20 de março</span>
+                <h3 class="card__titulo">Feira de Ciências e Tecnologia</h3>
+                <p class="card__texto">
+                  Estudantes de todos os cursos apresentam seus projetos. Uma
+                  boa chance de ver na prática o que cada área estuda. Entrada
+                  aberta à comunidade.
+                </p>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card__capa card__capa--coral" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="8" r="6" />
+                  <path d="M8.21 13.89 7 22l5-3 5 3-1.21-8.11" />
+                </svg>
+              </div>
+              <div class="card__corpo">
+                <span class="etiqueta etiqueta--coral">05 a 09 de maio</span>
+                <h3 class="card__titulo">Jogos Estudantis</h3>
+                <p class="card__texto">
+                  Uma semana de disputas de futsal, vôlei e outras modalidades
+                  entre as turmas. As inscrições acontecem com os professores de
+                  Educação Física.
+                </p>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card__capa card__capa--amarelo" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 18V5l12-2v13" />
+                  <circle cx="6" cy="18" r="3" />
+                  <circle cx="18" cy="16" r="3" />
+                </svg>
+              </div>
+              <div class="card__corpo">
+                <span class="etiqueta etiqueta--amarelo">18 de junho</span>
+                <h3 class="card__titulo">Mostra Cultural</h3>
+                <p class="card__texto">
+                  Música, teatro, dança e exposições feitas pelos próprios
+                  estudantes. Acontece no fim da tarde, no pátio central do
+                  campus.
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="secao" aria-labelledby="como-participar">
+          <div class="secao__cabecalho">
+            <span class="secao__icone" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                <circle cx="9" cy="7" r="4" />
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" />
+              </svg>
+            </span>
+            <div>
+              <span class="sobretitulo">Passo a passo</span>
+              <h2 class="secao__titulo" id="como-participar">Como participar</h2>
+            </div>
+          </div>
+
+          <div class="layout-com-aside">
+            <div class="layout-com-aside__principal">
+              <ul class="lista-check">
+                <li>
+                  <strong>Fique de olho nos murais:</strong> os cartazes dos
+                  eventos ficam espalhados pelos corredores e na entrada da
+                  biblioteca.
+                </li>
+                <li>
+                  <strong>Converse com a sua turma:</strong> muitas atividades
+                  são feitas em grupo, então vale combinar com os colegas.
+                </li>
+                <li>
+                  <strong>Procure o grêmio estudantil:</strong> eles ajudam a
+                  organizar vários eventos e sempre precisam de voluntários.
+                </li>
+              </ul>
+            </div>
+
+            <aside class="dica" aria-label="Dica sobre eventos">
+              <h3 class="dica__titulo">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M9 18h6" /><path d="M10 22h4" />
+                  <path d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5A4.61 4.61 0 0 1 8.91 14" />
+                </svg>
+                Quer se envolver mais?
+              </h3>
+              <p>
+                Ajudar na organização de um evento conta como atividade
+                complementar em alguns cursos. Vale perguntar para a sua
+                coordenação.
+              </p>
+            </aside>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="rodape">
+      <div class="container rodape__conteudo">
+        <div class="rodape__bloco">
+          <h2 class="rodape__titulo">IFC Conecta</h2>
+          <p>Portal informativo feito por e para estudantes.</p>
+        </div>
+        <div class="rodape__bloco">
+          <h2 class="rodape__titulo">Navegação</h2>
+          <ul class="contatos">
+            <li><a href="../index.html">Início</a></li>
+            <li><a href="../cursos/cursos.html">Cursos</a></li>
+            <li><a href="../guia/guia.html">Guia do calouro</a></li>
+            <li><a href="../contato/contato.html">Contato</a></li>
+          </ul>
+        </div>
+        <div class="rodape__bloco">
+          <h2 class="rodape__titulo">Contato</h2>
+          <ul class="contatos">
+            <li>Secretaria: (00) 0000-0001</li>
+            <li>contato@ifcconecta.exemplo</li>
+          </ul>
+        </div>
+        <p class="rodape__creditos">
+          Projeto acadêmico — Desenvolvimento Web. Este portal não representa
+          oficialmente o Instituto Federal Catarinense.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
